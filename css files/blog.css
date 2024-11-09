@@ -140,6 +140,9 @@
     .s-card-body p{
         display: none;
     }
+    .footer-list{
+        margin-right: 10px;
+    }
 
     
 }
@@ -196,6 +199,7 @@
     .side-photo img{
         width: 250px;
     }
+ 
 }
 
 
@@ -257,7 +261,5 @@ inbox section */
     .date{
         display: none;
     }
-    .card-photo img{
-       
-    }
+   
 }
