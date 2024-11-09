@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: protest;
+    src: url(../Fonts/ProtestStrike-Regular.ttf);
+}
+@font-face {
+    font-family: Monoton;
+    src: url(../Fonts/Monoton-Regular.ttf);
+}
+
+/* navbar */
+.navbar{
+    background-color: white;
+}
+.navbar_logo{
+    width: 35%;
+}
+.navbar-brand img{
+    width: 40%;
+    margin-left: 30px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.nav-icons{
+    margin-right: 10px;
+}
+.nav-icons i{
+    margin-left: 30px;
+}
+.nav-icons a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 50px;
+}
+.about-image {
+    flex: 1;
+    min-width: 280px;
+}
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.about-content {
+    flex: 2;
+    min-width: 280px;
+    margin-left: 40px;
+}
+.about-content h2 {
+    color: #ff7043;
+    margin-bottom: 10px;
+}
+.about-content p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.highlight {
+    color: #ff7043;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+    }
+}
+.heading{
+    color: #7f0783;
+    font-family: protest;
+}
+
+/* 
+inbox section */
+.inbox-section{
+    background-color: #E7FAFE;
+    position: relative;
+    margin-top: 30px;
+}
+.input-from input{
+    padding: 5px 40px 5px 40px;
+}
+.sub-btn{
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: 0.8s ease-in-out;
+}
+.sub-btn:hover{
+    background-color: rgb(161, 16, 72);
+    color: white;
+}
+.inbox-text h1{
+    font-family: protest;
+}
+
+/* footer-section */
+.footer-text img{
+    width: 100px;
+}
+.footer-links ul li{
+   list-style: none;
+   margin-left: 10px;
+}
+.footer-links ul li a{
+    text-decoration: none;
+}
+.icons{
+    margin-right: 60px;
+}
+.icons a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
