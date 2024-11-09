@@ -137,6 +137,10 @@
     .blog-head input{
         padding: 8px 70px 8px 70px;
     }
+    .s-card-body p{
+        display: none;
+    }
+
     
 }
 /* sidebar */
