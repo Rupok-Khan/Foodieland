@@ -39,7 +39,11 @@
 }
 
 /* content section */
+.card-photo{
+    
+}
 .card-photo img{
+   
     transition: 0.9S ease-in-out;
     cursor: pointer;
 }
@@ -114,10 +118,26 @@
         font-size: 0.6rem;
     }
 }
-@media(max-width:350px){
-    .card-photo img{
-      width: 300px;
+@media(max-width:450px){
+    .card-photos{
+     width: 200px;
     }
+    .card-text h5{
+        font-size: 0.8rem;
+    }
+    
+    .name img{
+        width: 20px;
+        height: 20px;
+    }
+    .name h6{
+        margin-top: 0px;
+        font-size: 0.5rem;
+    }
+    .blog-head input{
+        padding: 8px 70px 8px 70px;
+    }
+    
 }
 /* sidebar */
 
